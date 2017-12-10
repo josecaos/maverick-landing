@@ -1,0 +1,3 @@
+[submodule "submodulos/style_utils"]
+	path = submodulos/style_utils
+	url = git@github.com:kernspaltung/style_utils.git

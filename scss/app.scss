@@ -53,3 +53,13 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+// Agregados
+@import "submodulos/style_utils/scss/style_utils.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+
+* {outline: 1px solid black}
+
+div, section, main,ul,li {
+  @extend .h-100;
+}
