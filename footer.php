@@ -1,6 +1,6 @@
 
 </main>
-cierra contenedor principal
+<!-- cierra contenedor principal -->
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/what-input/dist/what-input.js"></script>
