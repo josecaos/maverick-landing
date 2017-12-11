@@ -1,1 +1,1 @@
-Simple landing-page for maverick
+Simple landing-page for Maverick

@@ -58,8 +58,13 @@
 @import "submodulos/style_utils/scss/style_utils.scss";
 @import "bower_components/font-awesome/scss/font-awesome.scss";
 
+// Generales
 * {outline: 1px solid black}
 
 div, section, main,ul,li {
   @extend .h-100;
+}
+
+.upper {
+  text-transform: uppercase;
 }
