@@ -58,13 +58,27 @@
 @import "submodulos/style_utils/scss/style_utils.scss";
 @import "bower_components/font-awesome/scss/font-awesome.scss";
 
+//
+
 // Generales
 * {outline: 1px solid black}
 
-div, section, main,ul,li {
+div, section, main,ul {
   @extend .h-100;
+  font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .upper {
   text-transform: uppercase;
+}
+.boton {
+  background-color: black;
+  color: white;
+}
+.rounded {
+  border-radius: 25px;
 }
