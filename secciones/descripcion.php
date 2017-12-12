@@ -1,4 +1,4 @@
-<section id="descripcion" class="grid-x h-a p-t-3 p-b-3">
+<section id="descripcion" class="grid-x h-a p-t-4 p-b-4">
 
   <div class="small-12 medium-4 p-t-1 p-b-3">
     <h3>
