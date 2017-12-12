@@ -1,9 +1,3 @@
-<header class="grid-x h-a p-1">
-  <h4 class="cell upper text-center h-a">
-    Maverick
-  </h4>
-</header>
-<!--  -->
 <section id="splash-screen" class="grid-x h-85-v align-middle rel">
 <!-- imagen fondo -->
 <div class="cell absUpL hide-for-small-only">
