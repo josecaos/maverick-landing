@@ -1,0 +1,71 @@
+$blanco: #fff;
+$negro: #000;
+$titulo: #000;
+$texto: #000;
+//
+$primario-0: #290001;
+$primario-1: #E3AE03;
+$secundario-0: #36BCFF;
+$secundario-1: #36BCFF;
+$ternario-0: #36BCFF;
+$ternario-1: #36BCFF;
+
+$colores: (
+blanco $blanco,
+negro $negro,
+titulo $titulo,
+texto $texto,
+primario-0 $primario-0,
+primario-1 $primario-1,
+secundario-0 $secundario-0,
+secundario-1 $secundario-1,
+ternario-0 $ternario-0,
+ternario-1 $ternario-1
+);
+
+
+@each $value in $colores {
+
+  .color-#{nth($value, 1)} {
+    & {
+      color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-bg {
+    & {
+      background-color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-bd {
+    & {
+      border: 1px solid white;
+      border-color: nth($value, 2) !important;
+    }
+  }
+
+  .color-#{nth($value, 1)}-hover:hover {
+    & {
+      color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-hover-bg:hover {
+    & {
+      background-color: nth($value, 2) !important;
+    }
+  }
+  .color-#{nth($value, 1)}-hover-bd:hover {
+    & {
+      border: 1px solid white;
+      border-color: nth($value, 2) !important;
+    }
+  }
+
+//cortinas transparentes
+.cortina-#{nth($value, 1)}-bg {
+  & {
+    background-color: nth($value, 2) !important;
+    opacity: 0.5;
+  }
+}
+
+}

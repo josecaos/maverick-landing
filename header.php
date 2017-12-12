@@ -10,8 +10,4 @@
 </head>
 <body>
 
-<header class="">
-
-</header>
-
   <main class="grid-container expanded">
