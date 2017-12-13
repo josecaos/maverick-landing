@@ -61,7 +61,7 @@
 //
 
 // Generales
-* {outline: 1px solid black}
+// * {outline: 1px solid black}
 
 div, section, main,ul {
   @extend .h-100;
@@ -79,16 +79,20 @@ h1,h2,h3,h4,h5,h6 {
   background-color: black;
   color: white;
 }
+.boton-form {
+  @extend .color-negro-bg;
+  color: white;
+}
 .rounded {
-  border-radius: 25px;
+  border-radius: 50px;
 }
 .thumb {
-  transition: 0.1s;
+  transition: 0.75s;
   height:240px;
 }
 .thumb:hover {
-  transition: 0.1s;
-  transform: scale(1.025);
+  transition: 0.75s;
+  transform: scale(1.075);
 }
 .icono-footer {
   font-size:1.75em;
