@@ -9,7 +9,7 @@
 
     <?php
 
-    session_start();
+    // session_start();
     require('form/formkey_class.php');
     $formKey = new formKey();
     $error = False;
