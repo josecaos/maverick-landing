@@ -1,12 +1,12 @@
 
 </main>
 
-<footer class="grid-x p-t-2 p-b-2">
+<footer class="footer grid-x p-t-2 p-b-2 color-secundario-5-bg color-secundario-1">
 
-  <div class="small-12 medium-4 h-a text-center">
+  <div class="footer-item small-12 medium-4 h-a text-center">
     <i class="fa fa-globe icono-footer"> </i>&nbsp; <a href="#" target="_blank">Visita nuestio sitio</a>
   </div>
-  <div class="small-12 medium-4 h-a text-center">
+  <div class="footer-item small-12 medium-4 h-a text-center">
     Maverick&nbsp;&nbsp;<i class="fa fa-copyright"></i>&nbsp;&nbsp;2017. All right reserved
   </div>
   <div class="small-12 medium-4 h-a text-center">
@@ -23,7 +23,7 @@
     );
     for ($i=0; $i < 3; $i++):
       ?>
-        <a href="<?php echo $links[$i];?>" class"" target="_blank">
+        <a href="<?php echo $links[$i];?>" target="_blank">
           <i class="icono-footer p-l-1-2 fa fa-<?php echo $iconos[$i];?>"></i>
         </a>
 

@@ -70,8 +70,27 @@ div, section, main,ul {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', sans-serif;
+  @extend .color-blanco;
 }
-
+a {
+  @extend .color-secundario-1;
+}
+a:hover {
+  @extend .color-primario-0;
+}
+label {
+  @extend .color-blanco;
+  @extend .bold;
+}
+input,select {
+  @extend .color-secundario-5-bg;
+  @extend .color-secundario-4;
+  border: 0 !important;
+  border-bottom: 1px solid $secundario-3 !important;
+}
+#interes {
+  @extend .color-secundario-4;
+}
 .upper {
   text-transform: uppercase;
 }
@@ -80,8 +99,13 @@ h1,h2,h3,h4,h5,h6 {
   color: white;
 }
 .boton-form {
-  @extend .color-negro-bg;
+  @extend .color-primario-0-bg;
   color: white;
+}
+.boton-form:hover {
+  @extend .color-blanco-bg;
+  @extend .color-primario-0;
+  cursor: pointer;
 }
 .rounded {
   border-radius: 50px;
@@ -96,4 +120,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 .icono-footer {
   font-size:1.75em;
+}
+
+
+
+.footer-item {margin-bottom: 0px;}
+
+// menor a 640px breackpiont#1
+@media screen and (max-width:640px) {
+
+.footer-item {margin-bottom: 16px}
+
 }

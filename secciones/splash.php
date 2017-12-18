@@ -1,6 +1,6 @@
-<section id="splash-screen" class="grid-x h-85-v align-middle rel">
+<section id="splash-screen" class="grid-x h-85-v align-middle rel color-blanco">
 <!-- imagen fondo -->
-<div class="cell absUpL hide-for-small-only">
+<div class="cell absUpL hide-for-small-only z-1">
   <div class="grid-x imgLiquid imgLiquidNoFill">
     <img src="img/home_curve.png" alt="" />
   </div>
@@ -17,8 +17,8 @@
     <br>
     <!-- boton -->
     <div class="cell text-center">
-      <a href="#" class="boton p-l-3 p-r-3 p-t-1 p-b-1 rounded hide-for-small-only">Video Presentation</a>
-      <a href="#" class="boton p-l-3 p-r-3 p-t-1 p-b-1 rounded show-for-small-only"><i class="fa fa-play"></i></a>
+      <a href="#" class="boton p-l-3 p-r-3 p-t-1 p-b-1 rounded hide-for-small-only color-blanco">Video Presentation</a>
+      <a href="#" class="boton p-l-3 p-r-3 p-t-1 p-b-1 rounded show-for-small-only color-blanco"><i class="fa fa-play"></i></a>
     </div>
 
   </div>

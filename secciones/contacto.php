@@ -1,8 +1,8 @@
-<section id="descripcion" class="grid-x expanded h-a p-t-3 p-b-3 text-center">
+<section id="descripcion" class="grid-x expanded h-a p-t-3 p-b-3 text-center color-secundario-5-bg color-blanco">
 
   <div class="grid-container">
 
-    <h1 class="cell text-center upper">Want to say<strong> &nbsp;Hello?</strong></h1>
+    <h1 class="cell text-center upper m-b-3">Want to say<strong> &nbsp;Hello?</strong></h1>
 
     <!--  -->
 
@@ -24,7 +24,7 @@
 
     ?>
     <!-- <script src="https://www.google.com/recaptcha/api.js?hl=es"></script> -->
-    <form id="hello" method="POST" action="" class="cell form-horizontal contact-form text-left" data-abide novalidate>
+    <form id="hello" method="POST" action="" class="cell form-horizontal contact-form text-left color-blanco" data-abide novalidate>
       <!--  -->
       <?php $formKey->outputKey(); ?>
       <!--  -->
@@ -44,7 +44,8 @@
       <div class="seleccion-form cell">
         <label for="" class="small-12 upper m-b-1">Quiero que me contacten por:</label>
         <div class="cell m-b-2">
-          <a href="#" class="p-l-3 p-r-3 p-t-0-2 p-b-0-2 color-negro-bd">Teléfono</a><a href="#" class="p-l-3 p-r-3 p-t-0-2 p-b-0-2 color-negro-bd">Correo</a>
+          <a href="#" class="p-l-4 p-r-4 p-t-0-2 p-b-0-2 color-secundario-3-bd color-blanco-bg">Teléfono</a>
+          <a href="#" class="p-l-4 p-r-4 p-t-0-2 p-b-0-2 color-secundario-3-bd">Email</a>
         </div>
         <!--  -->
         <label class="small-12 upper m-t-1">
@@ -61,7 +62,7 @@
       <!-- <div class="g-recaptcha" data-sitekey="6LdH0x0TAAAAAH3ZejIgppovJ-Uf9siidME__gF_"></div> -->
       <!--  -->
       <fieldset class="grid-x align-center m-t-3">
-        <button id="boton_form" class="boton-form rounded upper text-center p-l-4 p-r-4 p-t-0-2 p-b-0-2" type="submit" value="">Contact <br> Us</button>
+        <button id="boton_form" class="boton-form rounded upper text-center p-l-6 p-r-6 p-t-1 p-b-1" type="submit" value="">Contact <br> Us</button>
       </fieldset>
 
 
