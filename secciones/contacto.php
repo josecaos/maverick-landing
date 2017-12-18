@@ -2,7 +2,8 @@
 
   <div class="grid-container">
 
-    <h1 class="cell text-center upper m-b-3">Want to say<strong> &nbsp;Hello?</strong></h1>
+    <h1 class="titulo-contacto cell text-center upper m-b-3">Want to say
+      <strong> &nbsp;Hello?</strong></h1>
 
     <!--  -->
 
@@ -44,8 +45,7 @@
       <div class="seleccion-form cell">
         <label for="" class="small-12 upper m-b-1">Quiero que me contacten por:</label>
         <div class="boton_input cell m-b-2">
-          <a href="#" class="color-secundario-3-bd color-blanco-bg">Teléfono</a>
-          <a href="#" class="color-secundario-3-bd">Email</a>
+          <a href="#" class="color-secundario-3-bd color-blanco-bg">Teléfono</a><a href="#" class="color-secundario-3-bd">Email</a>
         </div>
         <!--  -->
         <label class="small-12 upper m-t-1">

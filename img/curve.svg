@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="863px" height="482px" viewBox="0 0 863 482" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>home/curve</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.89921414%" y1="2.94527095%" x2="100%" y2="94.4751978%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home---Look&amp;Feel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-287.000000, -160.000000)">
+        <g id="Cover">
+            <g id="background">
+                <g id="home/curve" transform="translate(290.000000, 160.000000)">
+                    <g id="Group-2">
+                        <path d="M539.014371,65.862199 C626.02817,-64.7713947 893.612521,330.913483 856.489353,407.752081 C820.027944,483.224615 2.08927374,192.223104 86.0430613,18.4538011 C128.112004,-68.6203045 458.021083,187.456838 539.014371,65.862199 Z" id="Fill-1" fill="url(#linearGradient-1)" opacity="0.25" style="mix-blend-mode: soft-light;"></path>
+                        <path d="M6.04306128,78.4538011 C48.1120042,-8.62030447 378.021083,247.456838 459.014371,125.862199 C546.02817,-4.77139468 813.612521,390.913483 776.489353,467.752081 C740.027944,543.224615 -77.9107263,252.223104 6.04306128,78.4538011" id="Fill-1" stroke="#000000" stroke-width="4" opacity="0.5" style="mix-blend-mode: overlay;"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

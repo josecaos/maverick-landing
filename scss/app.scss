@@ -63,13 +63,13 @@
 // Generales
 // * {outline: 1px solid black}
 
-div, section, main,ul {
+div, section, main, ul, p {
   @extend .h-100;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   @extend .color-blanco;
 }
 a {
@@ -90,6 +90,20 @@ input,select {
 }
 #interes {
   @extend .color-secundario-4;
+}
+.cortina-splash {
+  // background-color: rgba(125,240,213,1);
+  // background: @include filter-gradient(#7df0d5, #36c29f, vertical);
+  // background: @include background-image(linear-gradient(top, rgba(125,240,213,1) 0%, rgba(54,194,159,1) 100%));
+  background: rgba(125,240,213,1);
+  background: -moz-linear-gradient(top, rgba(125,240,213,1) 0%, rgba(54,194,159,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(125,240,213,1)), color-stop(100%, rgba(54,194,159,1)));
+  background: -webkit-linear-gradient(top, rgba(125,240,213,1) 0%, rgba(54,194,159,1) 100%);
+  background: -o-linear-gradient(top, rgba(125,240,213,1) 0%, rgba(54,194,159,1) 100%);
+  background: -ms-linear-gradient(top, rgba(125,240,213,1) 0%, rgba(54,194,159,1) 100%);
+  background: linear-gradient(to bottom, rgba(125,240,213,1) 0%, rgba(54,194,159,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7df0d5', endColorstr='#36c29f', GradientType=0 );
+
 }
 .upper {
   text-transform: uppercase;
@@ -127,16 +141,45 @@ input,select {
   @extend .p-t-0-2;
   @extend .p-b-0-2;
 }
+.fondo-splash {
+  opacity: 0.35;
+  @extend .color-primario-0;
+}
+.titulo-splash {
+  font-size: 5.6em;
+}
+.titulo-contacto {
+  font-size: 5.25em;
+}
+.texto-splash {
+  @extend .p-2;
+  @extend .p-t-0;
+}
 
 .footer-item {margin-bottom: 0px;}
 
+//
+// Responsive
 // menor a 640px breackpiont#1
 @media screen and (max-width:640px) {
+
+  input {
+    font-size: 0.85em !important;
+  }
+  select {
+    font-size: 0.65em !important;
+  }
 
   .footer-item {margin-bottom: 16px}
 
   .boton_input a {
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .titulo-splash {
+    font-size: 2.6em;
+  }
+  .titulo-contacto {
+    font-size: 2.25em;
   }
 }
