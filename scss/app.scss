@@ -121,14 +121,22 @@ input,select {
 .icono-footer {
   font-size:1.75em;
 }
-
-
+.boton_input a {
+  padding-left: 45px;
+  padding-right: 45px;
+  @extend .p-t-0-2;
+  @extend .p-b-0-2;
+}
 
 .footer-item {margin-bottom: 0px;}
 
 // menor a 640px breackpiont#1
 @media screen and (max-width:640px) {
 
-.footer-item {margin-bottom: 16px}
+  .footer-item {margin-bottom: 16px}
 
+  .boton_input a {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

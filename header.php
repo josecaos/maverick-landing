@@ -15,7 +15,7 @@
     <div class="cell absUpL color-primario-0-bg z-1k">
     </div>
     <header class="grid-x h-a p-1">
-      <h4 class="cell upper text-center h-a color-blanco">
-        Maverick
-      </h4>
+      <div class="cell upper text-center h-a align-center">
+        <img src="img/logo1.svg" alt="Maverick">
+      </div>
     </header>

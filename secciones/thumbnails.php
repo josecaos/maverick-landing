@@ -7,7 +7,7 @@
     <div class="small-12 medium-6 large-3 ovH">
 
       <div class="thumb cell imgLiquid imgLiquidFill">
-        <img src="img/work0<?php echo $i;?>.png" alt="" />
+        <img src="img/work<?php echo $i;?>.png" alt="" />
       </div>
 
     </div>

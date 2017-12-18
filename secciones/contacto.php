@@ -43,9 +43,9 @@
       <!--  -->
       <div class="seleccion-form cell">
         <label for="" class="small-12 upper m-b-1">Quiero que me contacten por:</label>
-        <div class="cell m-b-2">
-          <a href="#" class="p-l-4 p-r-4 p-t-0-2 p-b-0-2 color-secundario-3-bd color-blanco-bg">Teléfono</a>
-          <a href="#" class="p-l-4 p-r-4 p-t-0-2 p-b-0-2 color-secundario-3-bd">Email</a>
+        <div class="boton_input cell m-b-2">
+          <a href="#" class="color-secundario-3-bd color-blanco-bg">Teléfono</a>
+          <a href="#" class="color-secundario-3-bd">Email</a>
         </div>
         <!--  -->
         <label class="small-12 upper m-t-1">
