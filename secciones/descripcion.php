@@ -14,7 +14,7 @@
     <div class="foto-descripcion grid-x align-center p-b-2">
       <img src="img/branding.svg" alt="" />
     </div>
-    <h5 class="cell bold upper text-center p-b-1">
+    <h5 class="cell bold upper color-negro text-center p-b-1">
       Branding
     </h5>
     <div class="texto-descripcion grid-x text-center p-l-2 p-r-2 color-secundario-1">
@@ -26,7 +26,7 @@
     <div class="foto-descripcion grid-x align-center p-b-2">
       <img src="img/socialmedia.svg" alt="" />
     </div>
-    <h5 class="cell bold upper text-center p-b-1">
+    <h5 class="cell bold upper color-negro text-center p-b-1">
       Social Media
     </h5>
     <div class="texto-descripcion grid-x text-center p-l-2 p-r-2 color-secundario-1">

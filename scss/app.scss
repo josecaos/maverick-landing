@@ -141,8 +141,8 @@ input:focus,select:focus {
 .boton_input a {
   // @extend .small-6;
   width: 660px !important;
-  @extend .p-l-4;
-  @extend .p-r-4;
+  padding-left: 45px;
+  padding-right: 45px;
   @extend .align-center;
   @extend .p-t-0-2;
   @extend .p-b-0-2;
@@ -179,10 +179,10 @@ input:focus,select:focus {
 
   .footer-item {margin-bottom: 16px}
 
-  // .boton_input a {
-  //   padding-left: 30px;
-  //   padding-right: 30px;
-  // }
+  .boton_input a {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .titulo-splash {
     font-size: 2.6em;
     line-height: 43.2px;
