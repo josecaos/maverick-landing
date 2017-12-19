@@ -89,13 +89,15 @@ input,select {
   border: 0 !important;
   border-bottom: 1px solid $secundario-3 !important;
 }
+input:focus,select:focus {
+  border: 0 !important;
+  border-bottom: 1px solid $blanco !important;
+  box-shadow: 0 0 0px rgba(0,0,0,0) !important;
+}
 #interes {
   @extend .color-secundario-4;
 }
 .cortina-splash {
-  // background-color: rgba(125,240,213,1);
-  // background: @include filter-gradient(#7df0d5, #36c29f, vertical);
-  // background: @include background-image(linear-gradient(top, rgba(125,240,213,1) 0%, rgba(54,194,159,1) 100%));
   background: rgba(125,240,213,1);
   background: -moz-linear-gradient(top, rgba(125,240,213,1) 0%, rgba(54,194,159,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(125,240,213,1)), color-stop(100%, rgba(54,194,159,1)));
@@ -134,11 +136,14 @@ input,select {
   transform: scale(1.075);
 }
 .icono-footer {
-  font-size:1.75em;
+  font-size:1.4em;
 }
 .boton_input a {
-  padding-left: 45px;
-  padding-right: 45px;
+  // @extend .small-6;
+  width: 660px !important;
+  @extend .p-l-4;
+  @extend .p-r-4;
+  @extend .align-center;
   @extend .p-t-0-2;
   @extend .p-b-0-2;
 }
@@ -174,10 +179,10 @@ input,select {
 
   .footer-item {margin-bottom: 16px}
 
-  .boton_input a {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+  // .boton_input a {
+  //   padding-left: 30px;
+  //   padding-right: 30px;
+  // }
   .titulo-splash {
     font-size: 2.6em;
     line-height: 43.2px;
