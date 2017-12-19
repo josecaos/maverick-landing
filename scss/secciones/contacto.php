@@ -16,6 +16,7 @@
     $error = False;
     if($_SERVER['REQUEST_METHOD'] == 'post')
     {
+      // Validata
       if(!isset($_POST['form_key']) || !$formKey->validate())
       {
         $error = True;
@@ -23,6 +24,7 @@
     }
 
     ?>
+    <!-- <script src="https://www.google.com/recaptcha/api.js?hl=es"></script> -->
     <form id="hello" method="POST" action="" class="cell form-horizontal contact-form text-left color-blanco" data-abide novalidate>
       <!--  -->
       <?php $formKey->outputKey(); ?>

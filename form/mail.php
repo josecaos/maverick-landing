@@ -23,7 +23,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
 
 			if (strlen($name) < 3) {
 				exit("Necesitamos más caracteres en tu nombre."); // exit program, return message
-			} else if (! strlen($phone) === 0) {
+			} else if (! strlen($phone) == 0) {
 				if (strlen($phone) < 10) {
 					exit("Necesitamos más números en tu teléfono."); // exit program, return message
 				}
