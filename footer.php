@@ -17,9 +17,9 @@
       'linkedin'
     );
     $links = array(
-      'http://facebook.com',
-      'http://instagram.com',
-      'http://linkedin.com'
+      'http://facebook.com/maverick.brandagency',
+      'http://instagram.com/maverick_brandagency',
+      'http://linkedin.com/company/16178731'
     );
     for ($i=0; $i < 3; $i++):
       ?>
