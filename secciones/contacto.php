@@ -45,15 +45,15 @@
       <div class="seleccion-form cell">
         <label for="" class="small-12 upper m-b-1">Quiero que me contacten por:</label>
         <div class="boton_input cell m-b-2">
-          <a href="#" class="color-secundario-3-bd color-blanco-bg">Teléfono</a><a href="#" class="color-secundario-3-bd">Email</a>
+          <a href="javascript:void(0)" id="boton-seleccion-1" class="color-secundario-3-bd color-blanco-bg color-primario-0">Teléfono</a><a href="javascript:void(0)" id="boton-seleccion-2" class="color-secundario-3-bd">Email</a>
         </div>
         <!--  -->
-        <label class="small-12 upper m-t-1">
-          <input type="tel" name="telephone" id="tel" placeholder="Ingresa tu número de teléfono a 10 dígitos" class="input-email" required>
+        <label id="seleccionado-1" class="small-12 upper m-t-1">
+          <input type="tel" name="telephone" id="tel" placeholder="Ingresa tu número de teléfono a 10 dígitos" class="input-email" value="">
         </label>
         <!-- opcion dos escondida -->
-        <label class="small-12 upper m-t-1 hidden">
-          <input type="email"  name="email" id="inputEmail" placeholder="Ingresa tu correo electrónico" class="input-email" required>
+        <label id="seleccionado-2" class="small-12 upper m-t-1 hidden">
+          <input type="email"  name="email" id="email" placeholder="Ingresa tu correo electrónico" class="input-email" value="">
         </label>
 
       </div>
@@ -67,8 +67,8 @@
 
 
       <!-- respuesta -->
-      <p id="formResponse" class="success pt1"><?php #if($error) { echo($error); } ?></p>
-      <p id="mensaje_res" class="success pt1 small_font color_gris" style="display: none;"><i class="fa fa-success"></i></p>
+      <p id="formResponse" class="success pt1"><?php //if($error) { echo($error); } ?></p>
+      <p id="mensaje_res" class="success color-blanco"><i class="fa fa-success"></i></p>
       <div data-abide-error class="alert callout" style="display: none;">
         <p class="warning small_font"><i class="fa fa-alert"></i> Hay algunos errores, faltan campos obligatorios.</p>
       </div>

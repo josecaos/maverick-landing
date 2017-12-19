@@ -83,6 +83,7 @@ label {
   @extend .bold;
 }
 input,select {
+  font-size: 1em !important;
   @extend .color-secundario-5-bg;
   @extend .color-secundario-4;
   border: 0 !important;
@@ -149,7 +150,7 @@ input,select {
   font-size: 5.6em;
 }
 .titulo-contacto {
-  font-size: 5.25em;
+  font-size: 3.25em;
 }
 .texto-splash {
   @extend .p-2;
