@@ -23,13 +23,15 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
 
 			if (strlen($name) < 3) {
 				exit("Necesitamos más caracteres en tu nombre."); // exit program, return message
-			} else if (strlen($phone) < 10) {
-				exit("Necesitamos más números en tu teléfono."); // exit program, return message
+			} else if (! strlen($phone) === 0) {
+				if (strlen($phone) < 10) {
+					exit("Necesitamos más números en tu teléfono."); // exit program, return message
+				}
 			}
 
 			$formcontent="Te estan contactando desde tu sitio\n\nDe: $name\n\nInterés: $interest\n\nTeléfono: $phone\n\nCorreo: $email\n\n";
 			$message = wordwrap($formcontent, 70, "\r\n");
-			$recipient = "code@josecaos.xyz";
+			$recipient = "code@josecaos.xyz, danielafuentesweb@gmail.com";
 			$subject = "$name para $interest";
 			$mailheader = "De: $email \r\n";
 			mail($recipient, $subject, $message, $mailheader) or die("Algo ha salido mal, intente nuevamente.");
