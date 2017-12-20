@@ -11,7 +11,7 @@
     <h1 class="titulo-splash text-center upper m-0">Meet</h1>
     <h1 class="titulo-splash text-center bold upper"><strong>Maverick</strong></h1>
     <p class="texto-splash text-center p">
-      We use experience to create engaging brand experiences
+      Creemos que el diseño es capaz de crear experiencias de marca únicas
     </p>
     <br>
     <br>

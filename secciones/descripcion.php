@@ -1,11 +1,10 @@
 <section id="descripcion" class="grid-x h-a p-t-4 p-b-4">
 
   <div class="small-12 medium-4 p-t-1 p-b-3 m-t-3">
-    <h3 class="color-negro">
-      WE WORK WITH PASSION
+    <h3 class="color-negro upper">
+      Trabajamos con pasión para
       <strong>
-        AND BELIEVE IN QUALITY
-        DELIVERABLES
+        Crear productos de alta calidad
       </h3>
     </strong>
   </div>
@@ -18,7 +17,8 @@
       Branding
     </h5>
     <div class="texto-descripcion grid-x text-center p-l-2 p-r-2 color-secundario-1">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab sequi eos illo aut, obcaecati impedit earum laboriosam necessitatibus ducimus enim at officia autem deleniti!
+      Desarrollamos la imagen de marca alineada al correcto mensaje que debe transmitir
+      la empresa, sus productos y servicios.
     </div>
   </div>
   <!--  -->
@@ -30,7 +30,8 @@
       Social Media
     </h5>
     <div class="texto-descripcion grid-x text-center p-l-2 p-r-2 color-secundario-1">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab sequi eos illo aut, obcaecati impedit earum laboriosam necessitatibus ducimus enim at officia autem deleniti!
+      Hacemos de las redes sociales un punto de encuentro, logrando una conversación
+      real entre marca y consumidor.
     </div>
   </div>
 
