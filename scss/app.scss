@@ -138,14 +138,12 @@ input:focus,select:focus {
 .icono-footer {
   font-size:1.4em;
 }
-.boton_input a {
-  // @extend .small-6;
-  width: 660px !important;
-  padding-left: 45px;
-  padding-right: 45px;
-  @extend .align-center;
+.boton_input div {
+  width: 140px !important;
+  @extend .pointer;
   @extend .p-t-0-2;
   @extend .p-b-0-2;
+  @extend .color-primario-0-hover;
 }
 .fondo-splash {
   opacity: 0.35;
@@ -162,7 +160,9 @@ input:focus,select:focus {
   @extend .p-2;
   @extend .p-t-0;
 }
-
+.pointer {
+  cursor: pointer;
+}
 .footer-item {margin-bottom: 0px;}
 
 //

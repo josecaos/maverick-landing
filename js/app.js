@@ -49,7 +49,7 @@ function imgLiquid() {
 
 // alert("SUSHIII")
       $("#seleccionado-1, #seleccionado-2").toggleClass('hidden')
-      $(".boton_input a").toggleClass("color-blanco-bg color-primario-0")
+      $(".boton_input div").toggleClass("color-blanco-bg color-primario-0")
 
     })
 
