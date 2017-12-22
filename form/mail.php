@@ -18,7 +18,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST") {
 
 			$formcontent="Te estan contactando desde tu sitio \n\nDe: $name\n\nInterés: $interest\n\nTeléfono: $phone\n\nCorreo: $email\n\n";
 			$message = wordwrap($formcontent, 70, "\r\n");
-			$recipient = "danielafuentesweb@gmail.com";
+			$recipient = " mario@maverick.com.mx";
 			$subject = "$name para $interest";
 			$mailheader = "De: $email \r\n";
 			mail($recipient, $subject, $message, $mailheader) or die("Algo ha salido mal, intente nuevamente.");
