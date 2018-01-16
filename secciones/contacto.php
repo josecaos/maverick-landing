@@ -6,11 +6,7 @@
       <strong> &nbsp;Contactarnos?</strong></h2>
 
       <!--  -->
-
-
       <?php
-
-      // session_start();
       require('form/formkey_class.php');
       $formKey = new formKey();
       $error = False;
@@ -29,11 +25,13 @@
         <!--  -->
         <label class="small-12 upper m-b-1">Mi Nombre es:</label>
         <input type="text" placeholder="Nos gusta darte atención personalizada" name="name" aria-describedby="" id="nombre" required>
+        <label class="small-12 upper m-b-1">Mi Apellido es:</label>
+        <input type="text" placeholder="Nos gusta darte atención personalizada" name="secondname" aria-describedby="" id="apellido" required>
         <!--  -->
         <label class="small-12 upper m-b-1">Me Interesa:</label>
         <!-- en vez de email  -->
         <select name="interest" id="interes" required>
-          <option value="" hidden>Cuéntanos tu interés en Maverik</option>
+          <option value="cero" hidden>Cuéntanos tu interés en Maverik</option>
           <option value="uno">Branding</option>
           <option value="dos">Social Media</option>
         </select>
@@ -46,7 +44,7 @@
           </div>
           <!--  -->
           <label id="seleccionado-1" class="small-12 upper m-t-1">
-            <input type="tel" name="telephone" id="tel" placeholder="Ingresa tu número de teléfono a 10 dígitos" class="input-email" value="">
+            <input type="tel" name="telephone" id="tel" placeholder="Ingresa tu número de teléfono a 10 dígitos" class="input-email" value="" required="requiered">
           </label>
           <!-- opcion dos escondida -->
           <label id="seleccionado-2" class="small-12 upper m-t-1 hidden">
